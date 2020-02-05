@@ -1,0 +1,6 @@
+1. crea cartella "jss" in luogo adatto (es. <HOME>/Documenti/programmi/)
+
+2. copia contenuto di "dist" in <jss>
+
+3. aggiungi a <HOME>/.bash_profile:
+alias jss='<jss>/jshellscript.sh'

@@ -7,7 +7,7 @@ javac jshellscript/JShellScript.java || { echo '-- COMPILAZIONE FALLITA.' ; exit
 # builda jar
 echo 'Main-Class: jshellscript.JShellScript'> manifest.mf
 
-jar cmf manifest.mf jss.jar jshellscript/JShellScript.class jshellscript/Operation.class utilita/U.class resources
+jar cmf manifest.mf jss.jar jshellscript/JShellScript.class jshellscript/Operation.class utilita/U.class runner/Runner.class
 
 rm -f dist/jss.jar
 

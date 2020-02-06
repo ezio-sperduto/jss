@@ -1,16 +1,18 @@
 
+----- Informazioni su JShellScript (jss) ------
+
+
+per compilare/buildare eseguire:
+./2.build
+
+
+per istallare eseguire:
+./3.install
+
+
+per eseguire:
+jss <PARAMETRI>
+
+
+per help di utilizzo, lanciare senza parametri:
 jss
-	---> senza parametro, stampa questo help
-
-
-jss stub Pippo
-	---> genera stub Pippo.jss
-
-
-jss comp Pippo.jss
-	---> compila l'operazione Pippo.jss, producendo Pippo.class
-
-
-cat ESEMPIO.txt | jss Pippo.class | altro | altro > altro.txt
-	---> manipola in pipe ogni riga secondo l'operazione
-
